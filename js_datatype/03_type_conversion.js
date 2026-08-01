@@ -5,13 +5,6 @@ console.log(typeof score) //the type of score is sting because it is in "" (doub
 let valueInNumber = Number(score)
 console.log(typeof valueInNumber) //the string change in to a number . this is type conversion . 
 
-/*
-Convert " " (space) into a boolean.
-Convert null into a number.
-Convert null into a string.
-Convert undefined into a string.
-Convert the BigInt into a string.
-*/
 
 // Convert "100" into a number.
 
@@ -69,3 +62,75 @@ console.log(val4_into_bool)
 console.log(typeof val4_into_bool) //the 0 change into flase . 
 
 //Convert "Hello" into a boolean.
+
+let word = "Hello"
+console.log(word)
+console.log(typeof word)
+
+let word_into_bool = Boolean(word)
+console.log(word_into_bool)
+console.log(typeof word_into_bool)
+//the word hello change into boolean 1 value 
+
+
+//Convert " " into a boolean.
+let space = ""
+console.log(space)
+console.log(typeof space)
+let space_into_bool = Boolean(space)
+console.log(space_into_bool)
+console.log(typeof space_into_bool) //the vale of "" is false in boolean .
+
+//Convert null into a number.
+let value3 = null
+console.log(value3)
+console.log(typeof value3)
+
+let value3_into_num = Number(value3)
+console.log(value3_into_num)
+console.log(typeof value3_into_num) //the null change into 0 as a number . 
+let value3_into_bool = Boolean(value3)
+console.log(value3_into_bool)
+console.log(typeof value3_into_bool) //the null change into boolen is false . 
+let value3_into_str = String(value3)
+console.log(value3_into_str)
+console.log(typeof value3_into_str)
+
+// let value3_into_biN = BigInt(value3)
+// console.log(value3_into_biN)
+// console.log(typeof value3_into_biN)
+//giving error 
+
+//Convert undefined into a string.
+let val_un = undefined
+console.log(val_un)
+console.log(typeof val_un) 
+
+let value_into_string = String(val_un)
+console.log(value_into_string)
+console.log(typeof value_into_string) 
+//change into number 
+let value_into_number = Number(val_un)
+console.log(value_into_number)
+console.log(typeof value_into_number) // undefined => nan
+
+let value_into_boolean = Boolean(val_un)
+console.log(value_into_boolean)
+console.log(typeof value_into_boolean)
+//undefined => false
+
+//Convert the BigInt into a string.
+
+let bigNumber = 48403948n
+console.log(bigNumber)
+console.log(typeof bigNumber)
+
+let bigNumber_change_str = String(bigNumber)
+console.log(bigNumber_change_str)
+console.log(typeof bigNumber_change_str)
+
+let bigNumber_change_bool = Boolean(bigNumber)
+console.log(bigNumber_change_bool)
+console.log(typeof bigNumber_change_bool)
+//BigInt => true
+
