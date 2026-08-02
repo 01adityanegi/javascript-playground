@@ -1,4 +1,5 @@
-// Arithmetic Operators (+,- , * , / , % ,** ) : whose perfome the operations between two operatins. 
+// Arithmetic Operators (+, -, *, /, %, **)
+// These operators perform mathematical calculations on operands.
 
 // Store the price of two books and calculate the total price.
 let theHistoryBook = 299
@@ -38,7 +39,15 @@ console.log("The 5 days into hours is : ", days * oneDayhour)
 let hours2 = 3
 let seconds = 3600 // 1 hours = 3600 sec
 console.log("The 3 hours into secounds is : ", hours2 * seconds)
+
 // Calculate the total marks of 5 subjects.
-
-
+let subject1 = 45
+let subject2 = 54
+let subject3 = 22
+let subject4 = 69
+let subject5 = 99
+let TotalMarks = subject1 + subject2 + subject3 + subject4 + subject5
+console.log("The Total marks of 5 subjects is : ",TotalMarks)
 // Find the average marks of 5 subjects.
+let averageMarks = TotalMarks / 5
+console.log("The Average marks of 5 subjects is : ",averageMarks)
