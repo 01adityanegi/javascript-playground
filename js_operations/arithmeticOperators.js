@@ -7,7 +7,9 @@ totalPriceOfBooks = theHistoryBook+theScienceBook //here the addition operations
 console.log("The Total price of books is : ", totalPriceOfBooks)
 
 // Divide ₹500 equally among 4 friends.
-
+let totalAmount = 500
+let friends = 4 
+console.log("The 500 divide in 4 friend is : " ,totalAmount/friends, "per friend. ")
 
 // Find the remainder when 125 is divided by 12.
 
