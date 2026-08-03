@@ -37,12 +37,39 @@ console.log("Before  -- Cout :" , countersubValue);
 console.log("After -- Cout :" , countersubValue);
 
 // Increase the number 10 times manually using ++.
-
+let number  = 0
+number ++ 
+number ++ 
+number ++ 
+number ++ 
+number ++ 
+number ++ 
+number ++ 
+number ++ 
+number ++ 
+number ++ 
+console.log(number)
 
 // Decrease a variable until it reaches 0.
-
+let decreaseNum = 5
+decreaseNum = decreaseNum - 5
+console.log(decreaseNum)
 
 // Simulate visitor count increasing.
-
+let simuateVisior = 0 
+simuateVisior++
+console.log(simuateVisior)
 
 // Simulate available seats decreasing.
+let SimulateSeats = 10
+ -- SimulateSeats
+console.log(SimulateSeats)
+
+/*
+Learned:
+- ++ increases a variable by 1.
+- -- decreases a variable by 1.
+- count++ is postfix increment.
+- ++count is prefix increment.
+- The difference between prefix and postfix is visible when they are used inside expressions.
+*/
