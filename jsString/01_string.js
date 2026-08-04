@@ -1,33 +1,35 @@
-// Create a string variable named name and store your name in it. Print it.
-let Name = "Aadi" //this is sting . 
-console.log(Name) 
+// 1. Create a string variable named name and store your name in it. Print it.
+let name = "Aadi"; // String variable
+console.log(name);
 
-// Create a string "JavaScript" and print its length.
-let langName = "javaScript"
-console.log(langName.length) //this is length method whose count the string length. 
+// 2. Create a string "JavaScript" and print its length.
+let langName = "JavaScript";
+console.log(langName.length); // .length returns the total number of characters in the string.
 
-// Print the first character of "Programming".
-let lang = "Programming"
-console.log(lang[0]) //this is index value its start with 0 .
+// 3. Print the first character of "Programming".
+let lang = "Programming";
+console.log(lang[0]); // Strings use zero-based indexing, so index 0 is the first character.
 
-// Print the last character of "Programming".
-console.log(lang[10])
+// 4. Print the last character of "Programming".
+console.log(lang[lang.length - 1]); // Best practice: always use length - 1 instead of a fixed index.
 
-// Convert "javascript" into uppercase.
-console.log(langName.toUpperCase()) //toUppercase convert string into Upper case :- JAVASCRIPT
+// 5. Convert "javascript" into uppercase.
+console.log(langName.toUpperCase()); // Converts all characters to uppercase: "JAVASCRIPT"
 
-// Convert "JAVASCRIPT" into lowercase.
-console.log(langName.toLowerCase()) //toLowerCase convert string into lower case :- javascript
+// 6. Convert "JAVASCRIPT" into lowercase.
+console.log(langName.toLowerCase()); // Converts all characters to lowercase: "javascript"
 
-// Remove extra spaces from " Hello World ".
-let Word  = "  Hello world  "
-console.log(Word)
-console.log(Word.trim()) //trim method remove the white space form begining and end of the sting . 
+// 7. Remove extra spaces from " Hello World ".
+let word = "  Hello World  ";
 
-// Check whether "JavaScript" contains "Script".
+console.log(word);
+console.log(word.trim()); // Removes whitespace from the beginning and end of the string.
 
+// 8. Check whether "JavaScript" contains "Script".
+console.log(langName.includes("Script")); // Returns true if "Script" exists in the string, otherwise false.
 
-// Check whether "JavaScript" starts with "Java".
+// 9. Check whether "JavaScript" starts with "Java".
+console.log(langName.startsWith("Java")); // Returns true if the string starts with "Java".
 
-
-// Check whet her "JavaScript" ends with "Script".
+// 10. Check whether "JavaScript" ends with "Script".
+console.log(langName.endsWith("Script")); // Returns true if the string ends with "Script".
