@@ -16,11 +16,13 @@ const numDecimal = new Number (12.34567)
 console.log(numDecimal.toFixed(2))
 
 // Display 8.1 with exactly 4 decimal places.
-
+const valueDecimal = new Number(8.1)
+console.log(valueDecimal.toFixed(4))//the toFixed method count the deciaml number only output using this - 8.1000
+console.log(valueDecimal.toPrecision(4)) //the toPrecision count whole numebr the output using this - 8.100
 
 // Round 99.9999 to 3 decimal places.
-
-
+const NumValueDecimal = new Number(99.9999)
+console.log(NumValueDecimal.toFixed(3))
 // Convert 12345 into exponential notation.
 
 
