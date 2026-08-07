@@ -24,23 +24,25 @@ console.log(Math.pow(baseValue, raisedaPowerValue))
 
 // Find the maximum of 10, 45, 23, 89, 12.
 
+console.log(Math.max(10, 45, 23, 89, 12))
 
 // Find the minimum of 10, 45, 23, 89, 12.
-
+console.log(Math.min(10, 45, 23, 89, 12))
 
 // Round 7.6 to the nearest integer.
-
+console.log(Math.round(7.6))
 
 // Round down 8.9.
-
+console.log(Math.floor(8.9))
 
 // Round up 8.1.
-
+console.log(Math.ceil(8.1))
 
 // Remove the decimal part from 15.99.
-
+console.log(Math.trunc(15.99))
 
 // Find the sign of -15.
-
+console.log(Math.sign(-15))
 
 // Generate a random decimal number.
+console.log(Math.random())
