@@ -20,18 +20,19 @@ console.log(Math.cbrt(343))
 console.log(Math.log10(1000))
 
 // Find Math.log2(64).
-
+console.log(Math.log2(64))
 
 // Find Math.exp(2).
-
+console.log(Math.exp(2))
 
 // Find Math.sin(Math.PI / 2).
-
+console.log(Math.sin(Math.PI/2))
 
 // Find Math.cos(0).
-
+console.log(Math.cos(0))
 
 // Find Math.tan(Math.PI / 4).
-
+console.log(Math.tan(Math.PI/4))
 
 // Find the hypotenuse of a 6-8 triangle.
+console.log(Math.hypot(6, 8)); 
