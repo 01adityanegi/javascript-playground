@@ -19,7 +19,11 @@ hour.setHours(10)
 console.log(hour.getHours())
 
 // Create a date and change its minutes to 30.
-
+let minutes = new Date()
+minutes.setMinutes(30)
+console.log(minutes.getMinutes())
 
 // Create a date and change its seconds to 45.
-
+let seconds  = new Date()
+seconds.setSeconds(45)
+console.log(seconds.getSeconds())
