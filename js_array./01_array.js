@@ -25,15 +25,22 @@ fruits[1] = "Grape" // mango => Grape.
 console.log(fruits)
 
 // Add a new element at the end using push().
-
+console.log(num.push(100))
+console.log(num)
 
 // Remove the last element using pop().
-
+console.log(num.pop())
+console.log(num)
 
 // Add a new element at the beginning using unshift().
-
+console.log(fruits.unshift("Pomegranate"))
+console.log(fruits)
 
 // Remove the first element using shift().
-
+console.log(fruits.shift())
+console.log(fruits)
 
 // Print every element of an array using a for loop.
+for(let fruit of fruits){
+    console.log(fruit)
+}
