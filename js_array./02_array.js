@@ -16,15 +16,19 @@ console.log(numArray.sort((a, b)=> a-b))
 console.log(numArray.sort((a, b)=> b-a))
 
 // Join all elements of an array into one string using join().
-
+let numArraytwo = numArray
+console.log(numArraytwo.join()) //change array into string . 
 
 // Create a copy of an array using slice().
-
-
+let numArrayThree = numArray.slice()
 // Remove 2 elements from the middle using splice().
-
+console.log(numArrayThree.splice(2,3))
 
 // Add 2 new elements in the middle using splice().
-
+let newArray = [4, 64, 3 ,35, 61 , 55 , 99]
+newArray.splice(3, 0, 100, 200);
+console.log(newArray);
 
 // Replace an element using splice().
+newArray.splice(5,1,500)
+console.log(newArray);
