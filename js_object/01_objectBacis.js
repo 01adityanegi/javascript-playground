@@ -3,7 +3,8 @@ let student = {
     Name : "Sujal",
     age : 20,
     course : "BCOM",
-    college : "BE-Serious"
+    college : "BE-Serious",
+    marriedStatus : "Married"
 }
 console.log(`The Student Name is :  ${student["Name"]}`)
 
@@ -25,9 +26,12 @@ console.log(student["age"]) //change the age 20 into 21
 
 // Add a new property to an existing object.
 
+student.email = "sujal@beserious.in"
+console.log(student) //the email add on student object . 
 
 // Delete a property from an object.
-
+delete student.marriedStatus
+console.log(student) //delete the married Status . 
 
 // Check whether a particular property exists in an object.
 
