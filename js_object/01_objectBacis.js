@@ -47,6 +47,25 @@ total_price = Product.price * Product.quantity
 console.log(`The Total price of ${Product["productName"]} is : ${total_price}`)
 
 // Create an object containing marks of 5 subjects and calculate the total marks.
+const marks = {
+    Hindi: 54,
+    English: 74,
+    Physics: 89,
+    Chemistry: 46,
+    Math: 99
+};
+
+const totalMarks =
+    marks.Hindi +
+    marks.English +
+    marks.Physics +
+    marks.Chemistry +
+    marks.Math;
+
+console.log(`Total Marks: ${totalMarks}`);
 
 
 // Find the average marks from an object.
+
+const avgMarks = totalMarks / 5;
+console.log(`Average Marks: ${avgMarks}`);
