@@ -34,10 +34,17 @@ delete student.marriedStatus
 console.log(student) //delete the married Status . 
 
 // Check whether a particular property exists in an object.
-
+console.log(Object.hasOwn(student, 'email'))
+console.log(Object.hasOwn(student, 'phonenumber'))
 
 // Create a product object and calculate its total price using price and quantity.
-
+let Product = {
+    productName : "Ball Pen",
+    quantity : 5,
+    price : 100
+}
+total_price = Product.price * Product.quantity
+console.log(`The Total price of ${Product["productName"]} is : ${total_price}`)
 
 // Create an object containing marks of 5 subjects and calculate the total marks.
 
