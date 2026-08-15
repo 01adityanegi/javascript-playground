@@ -16,10 +16,12 @@ let Car = {
 console.log(`The details of Car is :\nBrand : ${Car["brand"]} \nModel : ${Car["model"]} \nand year : ${Car["year"]}`)
 
 // Access an object's property using both dot notation and bracket notation.
-
+console.log(student.college) //using dot(.)
+console.log(student["course"]) //using bracket []
 
 // Change the value of an existing property in an object.
-
+student.age = 21;
+console.log(student["age"]) //change the age 20 into 21
 
 // Add a new property to an existing object.
 
