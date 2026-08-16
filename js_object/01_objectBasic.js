@@ -1,0 +1,71 @@
+// Create an object student with name, age, course, and college. Print the student's name.
+let student = {
+    Name : "Sujal",
+    age : 20,
+    course : "BCOM",
+    college : "BE-Serious",
+    marriedStatus : "Married"
+}
+console.log(`The Student Name is :  ${student["Name"]}`)
+
+// Create a car object with brand, model, and year. Print all its properties.
+let Car = {
+    brand : "Rolls-Royce",
+    model : "Series II (2025–Present)",
+    year : 2026
+}
+console.log(`The details of Car is :\nBrand : ${Car["brand"]} \nModel : ${Car["model"]} \nand year : ${Car["year"]}`)
+
+// Access an object's property using both dot notation and bracket notation.
+console.log(student.college) //using dot(.)
+console.log(student["course"]) //using bracket []
+
+// Change the value of an existing property in an object.
+student.age = 21;
+console.log(student["age"]) //change the age 20 into 21
+
+// Add a new property to an existing object.
+
+student.email = "sujal@beserious.in"
+console.log(student) //the email add on student object . 
+
+// Delete a property from an object.
+delete student.marriedStatus
+console.log(student) //delete the married Status . 
+
+// Check whether a particular property exists in an object.
+console.log(Object.hasOwn(student, 'email'))
+console.log(Object.hasOwn(student, 'phonenumber'))
+
+// Create a product object and calculate its total price using price and quantity.
+let Product = {
+    productName : "Ball Pen",
+    quantity : 5,
+    price : 100
+}
+total_price = Product.price * Product.quantity
+console.log(`The Total price of ${Product["productName"]} is : ${total_price}`)
+
+// Create an object containing marks of 5 subjects and calculate the total marks.
+const marks = {
+    Hindi: 54,
+    English: 74,
+    Physics: 89,
+    Chemistry: 46,
+    Math: 99
+};
+
+const totalMarks =
+    marks.Hindi +
+    marks.English +
+    marks.Physics +
+    marks.Chemistry +
+    marks.Math;
+
+console.log(`Total Marks: ${totalMarks}`);
+
+
+// Find the average marks from an object.
+
+const avgMarks = totalMarks / 5;
+console.log(`Average Marks: ${avgMarks}`);
