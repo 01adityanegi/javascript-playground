@@ -11,10 +11,13 @@ console.log(Object.keys(student))
 console.log(Object.values(student))
 
 // Print all keys and values using a for...in loop.
-
+for (let keys in student){
+    console.log(`Keys : ${keys}`)
+}
 
 // Count the number of properties in an object.
-
+const numberOfProperties = Object.keys(student).length
+console.log(`The total properties in Object : ${numberOfProperties}`)
 
 // Find the highest value in an object containing subject marks.
 
