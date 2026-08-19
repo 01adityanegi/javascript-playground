@@ -39,8 +39,14 @@ console.log(product["noteBook"]);
 console.log("email" in student)
 
 // Create a movie object and change its rating.
-
-
+let moive = {
+    nameOfMovie : "Sujal-Ek-Neta",
+    ticketPrice :  499,
+    rating : 4 
+}
+console.log(Object.entries(moive))
+moive.rating = 5
+console.log(Object.entries(moive))
 // Create a mobile object and delete its color property.
 
 
