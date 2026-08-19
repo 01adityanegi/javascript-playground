@@ -19,19 +19,30 @@ for (let keys in student){
 const numberOfProperties = Object.keys(student).length
 console.log(`The total properties in Object : ${numberOfProperties}`)
 
-// Find the highest value in an object containing subject marks.
+// Create a product object and change its price and stock.
+let product = {
+    shope : [50, 100],
+    noteBook : [100 , 5],
+    mathBook : [500, 45],
+    bag : [999, 2], 
+    smartWatch : [4999, 5]
+}
+product.noteBook = [89 , 10]
+console.log(Object.values(product))
+
+// Add discount and category properties to a product object.
+product.noteBook = [89 , 5 , "10%"]
+console.log(product["noteBook"]);
+
+// Check whether an object contains an email property using in.
 
 
-// Find the subject with the highest marks.
+// Create a movie object and change its rating.
 
 
-// Count how many subjects have marks greater than 80.
+// Create a mobile object and delete its color property.
 
 
-// Create a nested object containing a person's address and print the city.
+// Create an object containing your name, age, college, and branch and print any three properties.
 
 
-// Modify a property inside a nested object.
-
-
-// Add a new property inside a nested object.
