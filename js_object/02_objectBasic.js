@@ -47,8 +47,16 @@ let moive = {
 console.log(Object.entries(moive))
 moive.rating = 5
 console.log(Object.entries(moive))
-// Create a mobile object and delete its color property.
 
+// Create a mobile object and delete its color property.
+let mobile = {
+    mobileName : "SAMSUNG",
+    color : "White",
+    print : 50000
+}
+console.log(mobile["color"])
+delete mobile.color
+console.log(Object.entries(mobile))
 
 // Create an object containing your name, age, college, and branch and print any three properties.
 
