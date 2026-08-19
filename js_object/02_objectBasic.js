@@ -59,5 +59,11 @@ delete mobile.color
 console.log(Object.entries(mobile))
 
 // Create an object containing your name, age, college, and branch and print any three properties.
-
-
+const bioData = {
+    name : "Raj",
+    age : 21,
+    college : "Rani Pokhari Dehradun",
+    branch : "Mechanical engineering",
+    marriageStatus : "Married"
+}
+console.log(`The applicant Name is ${bioData["name"]} and age is ${bioData["age"]}. The ${bioData["name"]}'s is ${bioData["marriageStatus"]}` )
