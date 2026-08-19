@@ -3,7 +3,8 @@ let student = {
     name : "Priyanshu",
     age : 22,
     branch : "Commerce",
-    rollno : 2003543
+    rollno : 2003543,
+    email :"Priyanshu@beserious.in"
 }
 console.log(Object.keys(student))
 
@@ -35,7 +36,7 @@ product.noteBook = [89 , 5 , "10%"]
 console.log(product["noteBook"]);
 
 // Check whether an object contains an email property using in.
-
+console.log("email" in student)
 
 // Create a movie object and change its rating.
 
