@@ -5,7 +5,7 @@ let student = {
             state : "Himachal",
             city : "Almora",
             village :"Khola",
-            pincode : 263623
+            
     },
     age : 22
 }
@@ -19,6 +19,7 @@ console.log(`State name change into : ${student.address.state}`)
 
 // Add a pincode property inside the nested address object.
 
+console.log(Object.assign(student.address , { pincode: 263623 }))
 
 // Delete the city property from a nested address object.
 
