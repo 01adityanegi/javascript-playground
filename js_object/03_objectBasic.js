@@ -23,6 +23,8 @@ console.log(Object.assign(student.address , { pincode: 263623 }))
 
 // Delete the city property from a nested address object.
 
+delete student.address.city
+console.log(Object.entries(student))
 
 // Create a nested company → employee → name object and print the employee's name.
 
