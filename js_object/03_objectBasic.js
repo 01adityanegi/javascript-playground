@@ -13,6 +13,9 @@ console.log(student.address.city)
 
 // Change the state inside a student's nested address object.
 
+console.log(student.address.state)
+student.address.state = "Uttarakhand"
+console.log(`State name change into : ${student.address.state}`)
 
 // Add a pincode property inside the nested address object.
 
