@@ -57,6 +57,18 @@ function cube(num){
 console.log(`The cube of  numbers is : ${cube(4)}`)
 
 // Create a function that takes three numbers and returns their average.
-
-
+function aveofnumber (num , numtwo , numthree){
+        return (num+numtwo+numthree)/3
+}
+console.log(`The avg of three numbers is : ${aveofnumber(3,5,9)}`)
 // Create a function that takes two numbers and returns the greater number.
+
+function greaterNum(fNum, secNum) {
+    if (fNum > secNum) {
+        return fNum;
+    } else {
+        return secNum;
+    }
+}
+
+console.log(greaterNum(2, 4));
