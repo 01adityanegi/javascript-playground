@@ -35,18 +35,26 @@ console.log(`The Multiplication of two numbers is : ${multiplicationOfNum(7,2)}`
 
 // Create a function that takes two numbers and returns their division.
 
-function multiplicationOfNum(num,numtwo){
+function divisionOfNum(num,numtwo){
         let division = num/numtwo
         return division
 }
-console.log(`The Divison of two numbers is : ${multiplicationOfNum(98,2)}`)
+console.log(`The Divison of two numbers is : ${divisionOfNum(98,2)}`)
 
 
 // Create a function that takes a number and returns its square.
 
+function square(num) { 
+    return num ** 2; 
+} 
+console.log(`The square of numbers is : ${square(2)}`);
 
 // Create a function that takes a number and returns its cube.
 
+function cube(num){ 
+    return  num**3
+}
+console.log(`The cube of  numbers is : ${cube(4)}`)
 
 // Create a function that takes three numbers and returns their average.
 
