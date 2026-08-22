@@ -83,6 +83,16 @@ console.log(checkNumArr())
 
 // Create a function that takes an array and returns a new array containing only numbers greater than 50.
 
-
+function greaterarr(){
+    let arrOne = [34,55,63,23,64,2,77,32,74,62,1,88]
+    let arrTwo = []
+    for (let i = 0 ;i<arrOne.length;i++){
+        if(arrOne[i]> 50){
+           arrTwo.push(arrOne[i])  
+        }
+    }
+    return arrTwo
+}
+console.log(greaterarr())
 
 // Create a function that takes an array and returns a new array containing only even numbers.
