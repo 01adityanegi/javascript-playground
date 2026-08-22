@@ -59,6 +59,17 @@ console.log(`The Largest  elements in array is  => ${lararrfind()}`)
 
 // Create a function that takes an array of numbers and returns the smallest number.
 
+function smallestarrfind(){
+   let arr = [3,6,2,4,8,1,5]
+    let smallest = arr[0]
+    for (let i = 1 ; i< arr.length; i++){
+        if(arr[i]<smallest){
+            smallest = arr[i]
+    }   
+  }
+  return smallest
+}
+console.log(`The Smallest elements in array is  => ${smallestarrfind()}`)
 
 
 // Create a function that takes an array and a number, then checks whether that number exists in the array.
