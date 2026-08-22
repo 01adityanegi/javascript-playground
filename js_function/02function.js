@@ -33,7 +33,15 @@ console.log(`The number of elements is => ${numOfElements()}`)
 
 // Create a function that takes an array of numbers and returns the sum of the numbers.
 
-
+function arrsumofnum(){
+    arr = [5,1,2,3,4,6,7,8,9]
+    let sum = 0 
+    for (let i = 0; i<arr.length; i++){
+        sum += arr[i]
+    }
+    return sum
+}
+console.log(`The Sum of elements is => ${arrsumofnum()}`)
 
 // Create a function that takes an array of numbers and returns the largest number.
 
