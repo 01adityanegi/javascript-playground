@@ -1,10 +1,10 @@
 // Create a function that takes an array and prints the array.
 
-function valueArray(){
-    let arr = [34,53,4,6,2,74]
-    return arr
+function valueArray(arr) {
+    console.log(arr);
 }
-console.log(valueArray())
+
+valueArray([34, 53, 4, 6, 2, 74]);
 
 // Create a function that takes an array and returns its first element.
 
@@ -96,3 +96,14 @@ function greaterarr(){
 console.log(greaterarr())
 
 // Create a function that takes an array and returns a new array containing only even numbers.
+function evenarr(){
+    let arrOne = [64,2,77,32,74,62,1,88]
+    let arrTwo = []
+    for (let i = 0 ;i<arrOne.length;i++){
+        if(arrOne[i] % 2 == 0){
+           arrTwo.push(arrOne[i])  
+        }
+    }
+    return arrTwo
+}
+console.log(evenarr())
