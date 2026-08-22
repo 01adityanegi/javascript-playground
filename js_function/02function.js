@@ -74,6 +74,11 @@ console.log(`The Smallest elements in array is  => ${smallestarrfind()}`)
 
 // Create a function that takes an array and a number, then checks whether that number exists in the array.
 
+function checkNumArr(){
+    arr =[1,2,3,4,5,6,7,8,9,10]
+    return arr.includes(5)
+}
+console.log(checkNumArr())
 
 
 // Create a function that takes an array and returns a new array containing only numbers greater than 50.
