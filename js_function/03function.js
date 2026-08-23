@@ -72,7 +72,14 @@ console.log(`The Price of Product is :  ${product()}`)
 
 // Create a function that takes a product object and increases its price by 100.
 
-
+function proPrice(){
+    productprice ={
+        "shope" : 30
+    }
+    productprice.shope = 100
+    return (productprice["shope"])
+}
+console.log(`The New Price of Product is : ${proPrice()}`)
 
 // Create a function that takes a person object and returns their name and age.
 
