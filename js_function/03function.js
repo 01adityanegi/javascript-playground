@@ -46,8 +46,19 @@ console.log(`The student city is ${stuCity()}`)
 
 // Create a function that takes a student object and returns the student's marks.
 
-
-
+function studentMark(){
+    stuMark = {
+        marks :{
+            "hindi" : 88,
+            "english" : 72,
+            "math" : 90,
+            "physics" : 85,
+            "chemistry" : 23,
+        }
+    }
+    return Object.values(stuMark.marks)
+}
+console.log(`The marks of student is ${studentMark()}`)
 // Create a function that takes a product object and returns its price.
 
 
