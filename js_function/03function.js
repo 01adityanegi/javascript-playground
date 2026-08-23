@@ -56,12 +56,19 @@ function studentMark(){
             "chemistry" : 23,
         }
     }
-    return Object.values(stuMark.marks)
+    return Object.values(stuMark["marks"])
 }
 console.log(`The marks of student is ${studentMark()}`)
+
 // Create a function that takes a product object and returns its price.
 
-
+function product(){
+    productprice ={
+        "shope" : 30
+    }
+    return (productprice["shope"])
+}
+console.log(`The Price of Product is :  ${product()}`)
 
 // Create a function that takes a product object and increases its price by 100.
 
