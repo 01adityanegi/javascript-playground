@@ -3,9 +3,6 @@
 function stu(){
     student = {
         name : "Karan",
-        age : 21,
-        gender : "Male",
-        email : "karan@beserious.in"
     }
     return student.name
 }
@@ -13,7 +10,14 @@ console.log(`The student name is ${stu()}`)
 
 // Create a function that takes a student object and prints the student's age.
 
-
+function stuage(){
+    studentage = {
+        name : "Karan",
+        age : 21
+    }
+    return studentage.age
+}
+console.log(`The student age is ${stuage()}`)
 
 // Create a function that takes a student object and changes the student's age.
 
