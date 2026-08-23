@@ -1,123 +1,131 @@
 // Create a function that takes a student object and prints the student's name.
 
-function stu(){
-    student = {
-        name : "Karan",
-    }
-    return student.name
+function studentName(student) {
+    return student.name;
 }
-console.log(`The student name is ${stu()}`)
+
+let student = {
+    name: "Karan",
+    age: 21
+};
+
+console.log(`The student name is: ${studentName(student)}`);
+
 
 // Create a function that takes a student object and prints the student's age.
 
-function stuage(){
-    studentage = {
-        name : "Karan",
-        age : 21
-    }
-    return studentage.age
+function studentAge(student) {
+    return student.age;
 }
-console.log(`The student age is ${stuage()}`)
+
+console.log(`The student age is: ${studentAge(student)}`);
+
 
 // Create a function that takes a student object and changes the student's age.
 
-function stuagechange(){
-    studentage = {
-        name : "Karan",
-        age : 21
-    }
-    studentage.age = 20
-    return studentage.age
+function changeStudentAge(student) {
+    student.age = 20;
+    return student.age;
 }
-console.log(`The student age is ${stuagechange()}`)
+
+console.log(`The changed student age is: ${changeStudentAge(student)}`);
+
 
 // Create a function that takes a student object and changes the student's city.
 
-function stuCity(){
-    studentcity = {
-        name : "Karan",
-        age : 21,
-        city : "Almora"
-    }
-    studentcity.city = "Dehradun"
-    return studentcity.city
+function changeStudentCity(student) {
+    student.city = "Dehradun";
+    return student.city;
 }
-console.log(`The student city is ${stuCity()}`)
+
+console.log(`The student city is: ${changeStudentCity(student)}`);
+
 
 // Create a function that takes a student object and returns the student's marks.
 
-function studentMark(){
-    stuMark = {
-        marks :{
-            "hindi" : 88,
-            "english" : 72,
-            "math" : 90,
-            "physics" : 85,
-            "chemistry" : 23,
-        }
-    }
-    return Object.values(stuMark["marks"])
+function studentMarks(student) {
+    return student.marks;
 }
-console.log(`The marks of student is ${studentMark()}`)
+
+let studentDetails = {
+    name: "Karan",
+    age: 21,
+    marks: {
+        hindi: 88,
+        english: 72,
+        math: 90,
+        physics: 85,
+        chemistry: 23
+    }
+};
+
+console.log(`The student's marks are:`, studentMarks(studentDetails));
+
 
 // Create a function that takes a product object and returns its price.
 
-function product(){
-    productprice ={
-        "shope" : 30
-    }
-    return (productprice["shope"])
+function productPrice(product) {
+    return product.price;
 }
-console.log(`The Price of Product is :  ${product()}`)
+
+let product = {
+    name: "Shoes",
+    price: 30
+};
+
+console.log(`The price of the product is: ${productPrice(product)}`);
+
 
 // Create a function that takes a product object and increases its price by 100.
 
-function proPrice(){
-    productprice ={
-        "shope" : 30
-    }
-    productprice.shope = 100
-    return (productprice["shope"])
+function increasePrice(product) {
+    product.price += 100;
+    return product.price;
 }
-console.log(`The New Price of Product is : ${proPrice()}`)
+
+console.log(`The new price of the product is: ${increasePrice(product)}`);
+
 
 // Create a function that takes a person object and returns their name and age.
 
-function person(){
-    persondetail = {
-            name : "Seedhe Maut",
-            age : 27
-    }
-    return (Object.values(persondetail))
-} 
-console.log(`The Person name and age  is : ${person()}`)
+function personDetails(person) {
+    return {
+        name: person.name,
+        age: person.age
+    };
+}
+
+let person = {
+    name: "Seedhe Maut",
+    age: 27
+};
+
+console.log(`The person's details are:`, personDetails(person));
+
 
 // Create a function that takes an object and returns the number of properties it has.
 
-function user(){
-    userDeatil = {
-        username :"Raga123",
-        age : 32,
-        city : "NCR",
-        gender : "Male",
-        email : "Ragebhaikaaayaphone@mail.in",
-        mobilenumber : 9876543211
-    }
-    return (Object.keys(userDeatil).length)
+function numberOfProperties(object) {
+    return Object.keys(object).length;
 }
-console.log(`The number of properties  is : ${user()}`)
+
+let user = {
+    username: "Raga123",
+    age: 32,
+    city: "NCR",
+    gender: "Male",
+    email: "raga@example.com",
+    mobileNumber: 9876543211
+};
+
+console.log(`The number of properties is: ${numberOfProperties(user)}`);
+
 
 // Create a function that takes an object and changes the value of one of its properties.
 
-function user(){
-    userDeatil = {
-        username :"Raga123",
-        age : 32,
-        city : "NCR",
-        gender : "Male",
-        email : "Ragebhaikaaayaphone@mail.in",
-        mobilenumber : 9876543211
-    }
-    return (Object.keys(userDeatil).length)
+function changeProperty(user) {
+    user.email = "officialraga@example.com";
+    return user.email;
 }
-console.log(`The number of properties  is : ${user()}`)
+
+console.log(`The changed email is: ${changeProperty(user)}`);
