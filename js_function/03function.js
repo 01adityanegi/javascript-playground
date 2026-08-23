@@ -83,7 +83,14 @@ console.log(`The New Price of Product is : ${proPrice()}`)
 
 // Create a function that takes a person object and returns their name and age.
 
-
+function person(){
+    persondetail = {
+            name : "Seedhe Maut",
+            age : 27
+    }
+    return (Object.values(persondetail))
+} 
+console.log(`The Person name and age  is : ${person()}`)
 
 // Create a function that takes an object and returns the number of properties it has.
 
