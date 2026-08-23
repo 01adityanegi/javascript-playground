@@ -33,7 +33,16 @@ console.log(`The student age is ${stuagechange()}`)
 
 // Create a function that takes a student object and changes the student's city.
 
-
+function stuCity(){
+    studentcity = {
+        name : "Karan",
+        age : 21,
+        city : "Almora"
+    }
+    studentcity.city = "Dehradun"
+    return studentcity.city
+}
+console.log(`The student city is ${stuCity()}`)
 
 // Create a function that takes a student object and returns the student's marks.
 
