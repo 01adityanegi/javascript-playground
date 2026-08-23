@@ -94,6 +94,30 @@ console.log(`The Person name and age  is : ${person()}`)
 
 // Create a function that takes an object and returns the number of properties it has.
 
-
+function user(){
+    userDeatil = {
+        username :"Raga123",
+        age : 32,
+        city : "NCR",
+        gender : "Male",
+        email : "Ragebhaikaaayaphone@mail.in",
+        mobilenumber : 9876543211
+    }
+    return (Object.keys(userDeatil).length)
+}
+console.log(`The number of properties  is : ${user()}`)
 
 // Create a function that takes an object and changes the value of one of its properties.
+
+function user(){
+    userDeatil = {
+        username :"Raga123",
+        age : 32,
+        city : "NCR",
+        gender : "Male",
+        email : "Ragebhaikaaayaphone@mail.in",
+        mobilenumber : 9876543211
+    }
+    return (Object.keys(userDeatil).length)
+}
+console.log(`The number of properties  is : ${user()}`)
