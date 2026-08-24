@@ -26,7 +26,17 @@ console.log(students())
 
 // Create a function that takes the students array and returns the name of the first student.
 
-
+function studentsTwo(){
+    std =[
+        firststd = { name: "Rahul", age: 20, marks: 80 },
+        secoundstd = { name: "Aman", age: 21, marks: 65 },
+        thirdstd = { name: "Rohit", age: 19, marks: 90 },
+        fourthstd = { name: "Mohit", age: 22, marks: 50 },
+        fifthstd = { name: "Ayush", age: 20, marks: 60 },
+    ]
+    return firststd.name
+}
+console.log(`The name of first Student => ${studentsTwo()}`)
 
 // Create a function that takes the students array and returns the marks of the second student.
 
