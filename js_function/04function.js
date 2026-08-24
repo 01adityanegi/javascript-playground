@@ -12,7 +12,17 @@ console.log(student())
 
 // Create a function that takes the students array and returns the last student.
 
-
+function students(){
+    std =[
+        { name: "Rahul", age: 20, marks: 80 },
+        { name: "Aman", age: 21, marks: 65 },
+        { name: "Rohit", age: 19, marks: 90 },
+        { name: "Mohit", age: 22, marks: 50 },
+        { name: "Ayush", age: 20, marks: 60 },
+    ]
+    return std.at(-1)
+}
+console.log(students())
 
 // Create a function that takes the students array and returns the name of the first student.
 
