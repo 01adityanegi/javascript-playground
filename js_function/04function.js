@@ -120,9 +120,22 @@ function getTopStudents() {
 
 const topStudents = getTopStudents();
 console.log(`Students who scored more than 70: ${topStudents.join(', ')}`);
-// Output: Students who scored more than 70: Sujal, Priyanshu, Raj
-// Create a function that takes the students array and returns the average marks.
 
+// Create a function that takes the students array and returns the average marks.
+function getAverageMarksLoop(studentsArray) {
+    if (studentsArray.length === 0) return 0;
+    
+    let totalMarks = 0;
+    
+    for (let i = 0; i < studentsArray.length; i++) {       
+        totalMarks += studentsArray[i].Marks; 
+    }
+    
+    return totalMarks / studentsArray.length;
+}
+
+const loopAverage = getAverageMarksLoop(students);
+console.log(`The average marks are: ${loopAverage}`);
 
 
 // Create a function that takes the students array and changes the marks of a particular student.
