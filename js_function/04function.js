@@ -150,3 +150,7 @@ function getUpdatedStudentsList(studentsArray, studentName, newMarks) {
 }
 
 // Create a function that takes the students array and adds a new student.
+function addStudent(studentsArray, newName, newMarks) {
+    studentsArray.push({ name: newName, Marks: newMarks });
+    return studentsArray;
+}
