@@ -52,6 +52,7 @@ function studentsThree(){
 }
 console.log(`The marks of secound Student => ${studentsThree()}`)
 
+// Create a function that takes the students array and returns the student whose marks are highest.
 
 function studentsfour() {
     //  Properly declare the array of objects using const
@@ -78,6 +79,27 @@ console.log(`The highest marks belong to ${topStudent.name} => ${topStudent.mark
 
 // Create a function that takes the students array and returns the student whose marks are lowest.
 
+function studentsfive() {
+    const std = [
+        { name: "Rahul", age: 20, marks: 80 },
+        { name: "Aman", age: 21, marks: 65 },
+        { name: "Rohit", age: 19, marks: 90 },
+        { name: "Mohit", age: 22, marks: 50 },
+        { name: "Ayush", age: 20, marks: 60 },
+    ];
+    
+    //  Initialize the highest with the first student object
+    let lowestmarks = std[0]; 
+    
+    for (let i = 1; i < std.length; i++) {       
+        if (std[i].marks < lowestmarks.marks) { 
+            lowestmarks = std[i];
+        }   
+    }
+    return lowestmarks;
+}
+const Student = studentsfive();
+console.log(`The highest marks belong to ${Student.name} => ${Student.marks}`);
 
 
 // Create a function that takes the students array and returns the names of students who scored more than 70.
