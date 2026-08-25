@@ -104,8 +104,23 @@ console.log(`The highest marks belong to ${Student.name} => ${Student.marks}`);
 
 // Create a function that takes the students array and returns the names of students who scored more than 70.
 
+function getTopStudents() {
+    const students = [
+        { name: "Sujal", Marks: 89 },
+        { name: "Priyanshu", Marks: 79 },
+        { name: "Kamal", Marks: 49 },
+        { name: "Kunal", Marks: 69 },
+        { name: "Raj", Marks: 99 }
+    ];
 
+    return students
+        .filter(student => student.Marks > 70)
+        .map(student => student.name);
+}
 
+const topStudents = getTopStudents();
+console.log(`Students who scored more than 70: ${topStudents.join(', ')}`);
+// Output: Students who scored more than 70: Sujal, Priyanshu, Raj
 // Create a function that takes the students array and returns the average marks.
 
 
