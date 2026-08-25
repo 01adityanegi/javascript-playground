@@ -140,6 +140,13 @@ console.log(`The average marks are: ${loopAverage}`);
 
 // Create a function that takes the students array and changes the marks of a particular student.
 
-
+function getUpdatedStudentsList(studentsArray, studentName, newMarks) {
+    return studentsArray.map(student => {
+        if (student.name === studentName) {
+            return { ...student, Marks: newMarks }; 
+        }
+        return student;
+    });
+}
 
 // Create a function that takes the students array and adds a new student.
