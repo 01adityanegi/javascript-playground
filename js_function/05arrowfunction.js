@@ -7,8 +7,13 @@ sayhello()
     console.log("Hello,karan")
  }
 greeting()
+
 // Create an arrow function that takes two numbers and returns their sum.
 
+const sumofnum = (num1 , num2 ) => {
+    return num1 + num2
+}
+console.log(sumofnum(4 , 5))
 
 // Create an arrow function that takes two numbers and returns their difference.
 
