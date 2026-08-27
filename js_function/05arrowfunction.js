@@ -24,9 +24,17 @@ console.log(difference(8 , 5))
 
 // Create an arrow function that takes two numbers and returns their product.
 
+const product = (num1 , num2) => {
+    return (num1 * num2)
+}
+console.log(product(4, 5))
 
 // Create an arrow function that takes two numbers and returns their division.
 
+const division = (num1 , num2) => {
+    return (num2 / num1)
+}
+console.log(division(3 , 27))
 
 // Create an arrow function that takes a number and returns its square.
 
