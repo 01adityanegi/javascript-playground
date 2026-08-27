@@ -3,11 +3,30 @@ const sayhello = () => console.log("Hello World")
 sayhello()
 
 // Create an arrow function that takes a name and prints "Hello, Karan".
+ const greeting = () => {
+    console.log("Hello,karan")
+ }
+greeting()
 // Create an arrow function that takes two numbers and returns their sum.
+
+
 // Create an arrow function that takes two numbers and returns their difference.
+
+
 // Create an arrow function that takes two numbers and returns their product.
+
+
 // Create an arrow function that takes two numbers and returns their division.
+
+
 // Create an arrow function that takes a number and returns its square.
+
+
 // Create an arrow function that takes a number and returns its cube.
+
+
 // Create an arrow function that takes a person's age and checks whether they are eligible to vote.
+
+
 // Create an arrow function that takes a number and checks whether it is even or odd.
+
