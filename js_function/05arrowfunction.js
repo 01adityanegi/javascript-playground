@@ -17,6 +17,10 @@ console.log(sumofnum(4 , 5))
 
 // Create an arrow function that takes two numbers and returns their difference.
 
+const difference = (num1 , num2) => {
+    return (num1 - num2)
+}
+console.log(difference(8 , 5))
 
 // Create an arrow function that takes two numbers and returns their product.
 
