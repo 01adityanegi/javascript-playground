@@ -52,6 +52,14 @@ console.log(cube(2))
 
 // Create an arrow function that takes a person's age and checks whether they are eligible to vote.
 
-
+const agechecks =(age) =>{
+    if (age >= 18){
+        return "You are eligible for vote."
+    }
+    else{
+        return "You are not elligible for vote."
+    }
+}
+console.log(agechecks(6))
 // Create an arrow function that takes a number and checks whether it is even or odd.
 
