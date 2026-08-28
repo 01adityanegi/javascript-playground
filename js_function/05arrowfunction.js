@@ -38,9 +38,17 @@ console.log(division(3 , 27))
 
 // Create an arrow function that takes a number and returns its square.
 
+const square = (num1) =>{
+    return (num1 ** 2)
+}
+console.log(square(2))
 
 // Create an arrow function that takes a number and returns its cube.
 
+const cube = (num1) =>{
+    return (num1 ** 3)
+}
+console.log(cube(2))
 
 // Create an arrow function that takes a person's age and checks whether they are eligible to vote.
 
