@@ -60,6 +60,15 @@ const agechecks =(age) =>{
         return "You are not elligible for vote."
     }
 }
-console.log(agechecks(6))
-// Create an arrow function that takes a number and checks whether it is even or odd.
+console.log(agechecks(26))
 
+// Create an arrow function that takes a number and checks whether it is even or odd.
+const numbercheck = (number) =>{
+    if(number % 2 === 0){
+        return "This is even number"
+    }
+    else{
+        return "This is odd number"
+    }
+}
+console.log(numbercheck(61))
