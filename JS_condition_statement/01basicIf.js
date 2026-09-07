@@ -1,7 +1,7 @@
 // Take a number and check whether it is positive.
 
 const num = 6
-if (num >= 0){
+if (num > 0){
     console.log("It is Positive")
 }
 
@@ -16,7 +16,7 @@ if (numtwo < 0){
 // Take a number and check whether it is zero.
 
 let numthree = 8
-if (num === 0 ){
+if (numthree === 0 ){
     console.log("it is Zero")
 }
 else {
@@ -49,8 +49,16 @@ if (numfive%2!==0){
 
 // Take a student's marks and check whether they passed (passing marks = 33).
 
-
-
+let marks = 54
+if (marks>=33){
+    console.log("You are pass")
+}
+else{
+    console.log("You are Fail")
+}
 // Take a temperature and check whether it is above 30°C.
 
-
+let temp = 44
+if (temp>30){
+    console.log("Tempereature is above the 30")
+}
