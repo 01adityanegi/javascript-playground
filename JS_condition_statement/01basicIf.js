@@ -8,7 +8,10 @@ if (num%2===0){
 
 // Take a number and check whether it is negative.
 
-
+const numtwo = 7
+if (num%2===0){
+    console.log("It is negative")
+}
 
 // Take a number and check whether it is zero.
 
