@@ -1,15 +1,15 @@
 // Take a number and check whether it is positive.
 
 const num = 6
-if (num%2===0){
+if (num >= 0){
     console.log("It is Positive")
 }
 
 
 // Take a number and check whether it is negative.
 
-const numtwo = 7
-if (num%2===0){
+const numtwo = -7
+if (numtwo < 0){
     console.log("It is negative")
 }
 
@@ -34,11 +34,18 @@ else {
 }
 // Take a number and check whether it is even.
 
+let numfour = 8
+if (numfour%2===0){
+    console.log("Even Number")
+}
 
 
 // Take a number and check whether it is odd.
 
-
+let numfive = 9
+if (numfive%2!==0){
+    console.log("Odd Number")
+}
 
 // Take a student's marks and check whether they passed (passing marks = 33).
 
